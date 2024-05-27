@@ -59,7 +59,7 @@ AudioDurationOption: float = Option(
 )
 
 AudioCodecOption: Codec = Option(
-    Codec.WAV, "--codec", "-c", help="Audio codec to be used for the separated output"
+    Codec.MIDI, "--codec", "-c", help="Audio codec to be used for the separated output"
 )
 
 AudioBitrateOption: str = Option(

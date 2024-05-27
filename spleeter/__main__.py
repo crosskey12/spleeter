@@ -233,7 +233,7 @@ def evaluate(
         files=mixtures,
         adapter=adapter,
         bitrate="128k",
-        codec=Codec.WAV,
+        codec=Codec.MIDI,
         duration=600.0,
         offset=0,
         output_path=join(audio_output_directory, EVALUATION_SPLIT),

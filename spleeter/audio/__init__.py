@@ -21,6 +21,7 @@ class Codec(str, Enum):
     """Enumeration of supported audio codec."""
 
     WAV: str = "wav"
+    MIDI: str = "mid"
     MP3: str = "mp3"
     OGG: str = "ogg"
     M4A: str = "m4a"
